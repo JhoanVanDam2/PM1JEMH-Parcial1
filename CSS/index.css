@@ -6,16 +6,18 @@ nav {
     justify-content: space-between;
     padding: 1rem;
 }
-nav label{
+
+nav label {
     font-size: 2rem;
 }
+
 /*botones del navbar*/
 .btns-nav {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 
 }
 
@@ -58,7 +60,7 @@ nav label{
 
 /*Header*/
 
-header{
+header {
     background-color: #cbe8ba;
     display: flex;
     flex-direction: column;
@@ -67,14 +69,77 @@ header{
     flex-wrap: wrap;
     padding: 4rem;
 }
-header h1{
+
+header h1 {
     font-family: sans-serif;
     width: 40%;
     text-align: center;
 }
-header h7{
+
+header h7 {
     font-family: Georgia;
     color: grey;
     width: 40%;
     text-align: center;
+}
+
+/*Seccion 1*/
+
+.seccion1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background-color: #f1f6be;
+}
+
+.seccion1 button {
+    border-left: black;
+    text-align: center;
+    padding: 1em;
+    border-collapse: collapse;
+    border-style: none;
+}
+
+.btn-bordes {
+    border: 1px solid;
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: white;
+    overflow: hidden;
+}
+
+#btn-annual {
+    background-color: white;
+    color: black;
+    transition: all 0.5s ease;
+}
+#btn-annual:hover {
+    background-color: black;
+    color: white;
+
+}
+
+#btn-monthly {
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease;
+}
+#btn-monthly:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+/* Seccion 2*/
+.seccion2{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-plan{
+    border: 1px gray;
 }
